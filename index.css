@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Recursive', sans-serif;
+    color: white;
+}
+
+body {
+    background-image: url(https://c1.wallpaperflare.com/preview/143/196/914/klee-four-leaf-clover-lucky-clover-tic-tac-toe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 10px auto;
+    background-color: cyan;
+}
+
+table tr td {
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    font-size: 35px;
+    text-align: center;
+}
+
+table tr td:hover {
+    background-color: rgb(60, 60, 73);
+    cursor: pointer;
+}
+
+.winner {
+    width: 240px;
+    height: 140px;
+    margin: 10px auto;
+    font-size: 60px;
+    text-align: center;
+    background-color: purple;
+}
+
+.winner span {
+    font-size: 40px;
+    display: block;
+}
+
+button {
+    width: 240px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    border: none;
+    background-color: coral;
+    font-size: 40px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* img {
+    float: right;
+} */
